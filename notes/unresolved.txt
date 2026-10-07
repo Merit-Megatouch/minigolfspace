@@ -1,0 +1,62 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+BonusPlay | minigolfspace.so
+FileExists(char const*) | minigolfspace.so
+GetTouchCoord(int*, int*, int*) | minigolfspace.so
+GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | minigolfspace.so
+MeritthonDisplayRound(int, int, int, unsigned long) | minigolfspace.so
+PlayWave(char*, unsigned short, int, int, int, bool) | minigolfspace.so
+KeyManager::GetInstance() | minigolfspace.so
+ScreenInfo::GetInstance() | minigolfspace.so
+TextSystem::LoadTranslations(xml_gameinfo::GameIds) | minigolfspace.so
+TextSystem::GetSpriteChannels(char const*, unsigned char**, unsigned char**, int, int, bool, bool, int, float) | minigolfspace.so
+TextSystem::SetTextDescription(TextDesc const&) | minigolfspace.so
+Translator::nTranslate(char*, unsigned int, char const*) | minigolfspace.so
+WorldClass::WorldClass() | minigolfspace.so
+system_info::SystemInfo::GetInstance() | minigolfspace.so
+system_info::SystemInfo::IsPlatformForce() | minigolfspace.so
+system_info::SystemInfo::IsPlatformGameTime() | minigolfspace.so
+MegacGlobals::SaveScreen() | minigolfspace.so
+MegacGlobals::RestoreScreen() | minigolfspace.so
+CoinJamManager::RegisterCallback(void (*)(bool)) | minigolfspace.so
+CoinJamManager::UnregisterCallback(void (*)(bool)) | minigolfspace.so
+CoinJamManager::Instance() | minigolfspace.so
+ContinueControl::display(unsigned int, unsigned int, unsigned int) | minigolfspace.so
+Books::LogCategoryPlays(xml_gameinfo::GameIds, int, int) | minigolfspace.so
+Books::Instance() | minigolfspace.so
+Colour::black | minigolfspace.so
+Colour::white | minigolfspace.so
+Locale::LanguageManager::IndexOf(Locale::Languages) | minigolfspace.so
+TextDesc::SetFontName(char const*) | minigolfspace.so
+TextUtils::ConvertToMarkup(char const*) | minigolfspace.so
+TextUtils::MeritStringToUTF8(char const*) | minigolfspace.so
+KeyManager::Country() const | minigolfspace.so
+KeyManager::IsNJKey() const | minigolfspace.so
+HighScoresManager::WinnersMask() const | minigolfspace.so
+layout::ScreenControl::GetCurrentWidth() const | minigolfspace.so
+layout::ScreenControl::GetCurrentHeight() const | minigolfspace.so
+vtable for DOSLinuxWorld | minigolfspace.so
+allegro_gl_flip | minigolfspace.so
+blit | minigolfspace.so
+create_bitmap_ex | minigolfspace.so
+destroy_bitmap | minigolfspace.so
+gluCylinder | minigolfspace.so
+gluDeleteQuadric | minigolfspace.so
+gluLookAt | minigolfspace.so
+gluNewQuadric | minigolfspace.so
+gluPerspective | minigolfspace.so
+gluQuadricDrawStyle | minigolfspace.so
+gluQuadricNormals | minigolfspace.so
+gluSphere | minigolfspace.so
+install_int | minigolfspace.so
+masked_blit | minigolfspace.so
+mouse_b | minigolfspace.so
+mouse_x | minigolfspace.so
+mouse_y | minigolfspace.so
+position_mouse | minigolfspace.so
+remove_int | minigolfspace.so
+screen | minigolfspace.so
+voice_check | minigolfspace.so
+voice_ramp_volume | minigolfspace.so
