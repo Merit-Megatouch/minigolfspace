@@ -8,6 +8,6 @@
 | Assets | /usr/local/gamedata/gamegraphics/minigolf |
 | Window size | 640x480 — from declared legacy 640x480 |
 | Largest PNG | none |
-| Engine libraries beyond the shared SDK | libmerit_legacy.so liboldode.so liboldopcode.so  |
+| Engine libraries beyond the shared SDK | liblayout.so libmerit_legacy.so liboldode.so liboldopcode.so libsystem_info.so libtouchscreen.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 58 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 38 unresolved symbol(s) (unresolved.txt) |
